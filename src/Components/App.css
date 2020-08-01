@@ -1,15 +1,21 @@
 .grid-container {
+    justify-content: space-between;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2px;
+    row-gap: 2px;
     
-    grid-gap:10px;
+    grid-template-columns: auto auto auto ;
     
-    padding: 10px;
+    border:1px;
+    
+    
+    padding: 5px;
   }
   .grid-item {
     
+    display :flex;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 50px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
     

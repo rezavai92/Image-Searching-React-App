@@ -4,7 +4,7 @@ import './Image.css'
 const Image =(props)=>{
     return(
         
-            <img src={props.url} style={{width:"100%"}} alt="img" /> 
+            <img src={props.url} style={{display:"block",maxWidth:"100%"}} alt="img" /> 
     
     )
 }
